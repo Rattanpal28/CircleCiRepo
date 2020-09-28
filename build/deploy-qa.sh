@@ -4,4 +4,4 @@
 #Deploy to prod & run all tests
 echo "Deploying metadata api"
 echo "Deploying to production & running all tests..."
-sfdx force:mdapi:deploy -u Qat -d ./mdAPIZip -w 100 
+sfdx force:mdapi:deploy -u Qat -d ./manifest -w 100 
